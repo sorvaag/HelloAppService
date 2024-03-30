@@ -1,0 +1,58 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+    @model EnvironmentViewModel;
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+
+    <table class="table table-striped table-hover">
+        <thead>
+            <tr>
+                <td>Setting</td>
+                <td>Value</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Region</td>
+                <td>@Model.ComputeRegion</td>
+            </tr>
+            <tr>
+                <td>Zone</td>
+                <td>@Model.ComputeZone</td>
+            </tr>
+            <tr>
+                <td>Resource Group</td>
+                <td>@Model.ResourceGroup</td>
+            </tr>
+            <tr>
+                <td>Time Zone</td>
+                <td>@Model.TimeZone</td>
+            </tr>
+            <tr>
+                <td>Plan SKU</td>
+                <td>@Model.PlanSku</td>
+            </tr>
+            <tr>
+                <td>Environment</td>
+                <td>@Model.AspNetCoreEnvironment</td>
+            </tr>
+            <tr>
+                <td>.NET Version</td>
+                <td>@Model.AspDotNetVersion</td>
+            </tr>
+            <tr>
+                <td>Machine Name</td>
+                <td>@Model.MachineName</td>
+            </tr>
+            <tr>
+                <td>OS Version</td>
+                <td>@Model.OSVersion</td>
+            </tr>
+    
+
+        </tbody>
+    </table>
+
+</div>

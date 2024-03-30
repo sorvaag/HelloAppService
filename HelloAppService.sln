@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34707.107
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloAppService", "HelloAppService\HelloAppService.csproj", "{A90904E3-5C71-4508-AAEA-0ED07FB44ACF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A90904E3-5C71-4508-AAEA-0ED07FB44ACF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A90904E3-5C71-4508-AAEA-0ED07FB44ACF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A90904E3-5C71-4508-AAEA-0ED07FB44ACF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A90904E3-5C71-4508-AAEA-0ED07FB44ACF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B8170D22-05CC-46CB-9149-51A5B6D3AF16}
+	EndGlobalSection
+EndGlobal
